@@ -10,8 +10,9 @@ CMD [ "sleep", "100"]
 #CMD [ "google.com" ]
 #ENTRYPOINT [ "ping", "-c5" ]
 
-# RUN adduser Raja
-# USER Raja
 RUN mkdir /app
 WORKDIR /app
 RUN pwd
+RUN adduser Raja
+USER Raja
+
