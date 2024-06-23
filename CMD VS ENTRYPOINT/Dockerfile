@@ -12,6 +12,6 @@ CMD [ "sleep", "100"]
 
 RUN adduser Raja
 USER Raja
-RUN mkdir /app
-WORKDIR /app
-RUN pwd
+# RUN mkdir /app
+# WORKDIR /app
+# RUN pwd
