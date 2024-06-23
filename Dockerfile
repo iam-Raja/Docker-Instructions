@@ -10,4 +10,4 @@ LABEL author="Raja" \
 ENV Trainer="Siva" \
     Duration="120 HRS"    
 ADD https://raw.githubusercontent.com/iam-Raja/Docker-Instructions/main/README.md /tmp/docker-installtion.txt
-ADD sample-1.tr /tmp/
+ADD sample-1.tar /tmp/
