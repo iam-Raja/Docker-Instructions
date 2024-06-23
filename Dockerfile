@@ -8,5 +8,5 @@ LABEL author="Raja" \
       Description="Learning Aws-Devops" \
       Cousre="AWS-Devops"
 ENV Trainer="Siva" \
-    Duration="120 HRS"     
-    
+    Duration="120 HRS"    
+ADD https://raw.githubusercontent.com/iam-Raja/Docker-Instructions/main/README.md /tmp/docker-installtion.txt
