@@ -21,6 +21,6 @@ sudo systemctl start docker
 
 * Run 
 ```
-usermod -aG docker ec2-user
+sudo usermod -aG docker ec2-user
 ```
 
