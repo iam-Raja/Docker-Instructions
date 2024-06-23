@@ -13,12 +13,14 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/rhel/docker
 ```
 sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
+```
+sudo systemctl start docker
+```
 
 * Now, Exit and Re-connect
+
 * Run 
 ```
 usermod -aG docker ec2-user
 ```
-```
-sudo systemctl start docker
-```
+
